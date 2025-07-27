@@ -22,3 +22,22 @@
     text-align: center;
     z-index: 1000;
 }
+
+.titleimg{
+  width: 300px;
+  height: auto;
+}
+
+.inheader{
+   display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.subinfooter{
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  padding: 20px;
+}
