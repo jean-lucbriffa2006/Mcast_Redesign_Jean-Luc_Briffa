@@ -3,36 +3,44 @@
 }
 
 .homeheader{
-    color: #242424;
-    background-color: #dedede;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    position: fixed;
+  color: #242424;
+  background-color: #dedede;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  top: 0%;
 }
 
 .homefooter{
-    color: #242424;
-    background-color: #dedede;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    z-index: 1000;
+  color: #242424;
+  background-color: #dedede;
+  padding: 20px;
+  bottom: 0%;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;
+  text-decoration: none;
 }
 
 .titleimg{
   width: 300px;
   height: auto;
+  display: inline-block;
 }
 
 .inheader{
-   display: flex;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   gap: 20px;
   padding: 20px;
+}
+
+.headertext{
+  text-decoration: none;
+  color: #242424;
 }
 
 .subinfooter{
@@ -40,4 +48,93 @@
   justify-content: center;
   gap: 120px;
   padding: 20px;
+}
+
+.footertext{
+  font-size: 16pt;
+  text-decoration: none;
+  color: #242424;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px;
+  margin-top: 320px;
+}
+
+.link-button {
+  display: inline-block;
+  padding: 180px 120px;
+  background-color: #dedede;
+  color: #242424;
+  text-decoration: none;
+  border-radius: 9px;
+  font-family: Arial, sans-serif;
+  font-size: 32pt;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  
+}
+
+.link-button:hover {
+  background-color: #848484;
+  transform: scale(0.85);
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px;
+  padding-right: 50%;
+  margin-top: 30px;
+}
+
+.subinfo{
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #dedede;
+  color: #242424;
+  text-decoration: none;
+  border-radius: 9px;
+  font-family: Arial, sans-serif;
+  font-size: 16pt;
+}
+
+form {
+  background-color: #dedede;
+  padding: 20px;
+  border-radius: 9px;
+  width: 350px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  justify-content: center;
+}
+
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: auto;
+  border-radius: 6px;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+button {
+  background-color: #474747;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #848484;
+  transform: scale(0.95);
 }
